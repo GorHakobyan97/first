@@ -1,0 +1,75 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing:border-box;
+}
+#main{
+	overflow: hidden;
+	height: 900vh;
+
+}
+header{
+
+    background-image: url("../images/Ou1L18s.jpg");
+
+    /* Full height */
+    height: 100vh; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#first{
+	height: 100vh;
+	background: yellow;
+	position: relative;
+	width: 100%;
+	
+}
+#second{
+	height: 100vh;
+	background: #ff0f0f;
+	position: fixed;
+	width: 100%;
+	right: -100%;
+	top: 0;
+
+
+}
+#third{
+	height: 2500vh;
+	background: green;
+	width: 100%;
+	position: relative;
+	top: 100%;
+	z-index: 11;
+	
+
+}
+
+#for{
+	height: 100vh;
+	background: pink;
+	position: fixed;
+	width: 100%;
+	right: -100%;
+	top: 0;
+	z-index: 11;
+
+
+}
+
+
+.sec2{
+	    /* Full height */
+    height: 100vh; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
