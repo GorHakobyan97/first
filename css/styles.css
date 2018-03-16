@@ -2,6 +2,8 @@
 	margin:0;
 	padding: 0;
 	box-sizing:border-box;
+
+    
 }
 #main{
 	overflow: hidden;
@@ -13,7 +15,7 @@ header{
     background-image: url("../images/Ou1L18s.jpg");
 
     /* Full height */
-    height: 100vh; 
+    height: 150vh; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -33,7 +35,7 @@ header{
 	background: #ff0f0f;
 	position: fixed;
 	width: 100%;
-	right: -100%;
+	right: -150%;
 	top: 0;
 
 
@@ -49,7 +51,7 @@ header{
 
 }
 
-#for{
+#four{
 	height: 100vh;
 	background: pink;
 	position: fixed;
